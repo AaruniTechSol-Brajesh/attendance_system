@@ -15,7 +15,7 @@ standard_to = StandardScaler()
 @app.route('/attendance', methods = ['POST'])
 def attendance():
     if request.method == 'POST':
-        path = 'Train Images'
+        path = './Train Images'
         myList = os.listdir(path)
         images, names = [], []
         for n in myList:
