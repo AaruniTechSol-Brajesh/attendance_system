@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ATTENDANCE SYSTEM</title>
+</head>
+<body>
+	<h1 style = "text-align: center">ATTENDANCE</h1><br><br>
+	<div><form action = "{{url_for('attendance')}}" method = "post">
+		<div style = "text-align: center"><button id = "submit" type = "submit">Log Attendance</button></div>        
+    </form></div>
+	<style>
+        body {
+        	background-color: lightslategray;
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: -15px;
+            padding-bottom: 15px;
+            font-size: 20px;
+            color: black;
+        }
+        div {
+        	padding-top: -15px;
+            padding-bottom: 15px;
+        }        
+        #submit {
+            font-size: 25px;
+            color: black;
+            padding: 15px;
+        }
+    </style>
+</body>
+</html>
