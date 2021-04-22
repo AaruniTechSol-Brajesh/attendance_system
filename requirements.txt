@@ -12,7 +12,6 @@ Jinja2==2.11.3
 joblib==1.0.1
 MarkupSafe==1.1.1
 numpy==1.20.2
-opencv-python==4.5.1.48
 pandas==1.2.4
 Pillow==8.2.0
 python-dateutil==2.8.1
@@ -26,3 +25,4 @@ threadpoolctl==2.1.0
 urllib3==1.26.4
 Werkzeug==1.0.1
 wincertstore==0.2
+opencv-python-headless==4.2.0.32
